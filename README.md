@@ -20,9 +20,9 @@ You can convert it by referring to the caffe model in the [referenced project](h
 
 ```
 > cd models
-> wget http://posefs1.perception.cs.cmu.edu/OpenPose/models/pose/coco/pose_iter_440000.caffemodel
-> wget http://posefs1.perception.cs.cmu.edu/OpenPose/models/face/pose_iter_116000.caffemodel
-> wget http://posefs1.perception.cs.cmu.edu/OpenPose/models/hand/pose_iter_102000.caffemodel
+> wget https://github.com/foss-for-synopsys-dwc-arc-processors/synopsys-caffe-models/blob/master/caffe_models/openpose/caffe_model/pose_iter_440000.caffemodel
+> wget https://www.dropbox.com/s/d08srojpvwnk252/pose_iter_116000.caffemodel?dl=0
+> wget https://www.dropbox.com/s/gqgsme6sgoo0zxf/pose_iter_102000.caffemodel?dl=0
 
 > python convert_model.py posenet pose_iter_440000.caffemodel coco_posenet.npz
 > python convert_model.py facenet pose_iter_116000.caffemodel facenet.npz
