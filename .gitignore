@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+__pycache__/
+cocoapi/
+coco/
+/coco
+.ipynb_checkpoints
+*.caffemodel
+*.chainermodel
+*.npz
